@@ -1,0 +1,813 @@
+/* ---------------------------------------------------------media query------------------------------------------- */
+/* Extra small devices (phones, 767px and down) */
+@media only screen and (max-width: 767.98px) {
+  .first {
+    width: 40%;
+  }
+  /* personal account */
+  .account-personal .tab-contents .nav-pills .nav-item {
+    width: 33%;
+  }
+  .account-personal .tab-contents .tab-content .nav-pills .nav-item {
+    width: 45%;
+  }
+  .account-personal .tab-contents .nav-pills .nav-item .nav-link.active,
+  .account-personal .tab-contents .nav-pills .nav-item .nav-link {
+    font-size: 14px;
+  }
+  .account-personal .tab-contents .tab-content .nav-pills .nav-item .nav-link,
+  .account-personal
+    .tab-contents
+    .tab-content
+    .nav-pills
+    .nav-item
+    .nav-link.active {
+    font-size: 11px;
+  }
+
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-content-adv
+    .not-found
+    .btn {
+    padding: 3%;
+    width: 44%;
+  }
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-content-message
+    .all-message
+    .search
+    .form-control {
+    width: 82%;
+    margin-right: 1%;
+  }
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-content-message
+    .all-message
+    .content
+    h4 {
+    text-align: center;
+  }
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-content-message
+    .all-message
+    .content {
+    height: 200px;
+  }
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-content-message
+    .chat-container {
+    border-left: unset;
+    border-right: unset;
+  }
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-content-message
+    .chat-container
+    .content {
+    padding: 7% 3%;
+  }
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-content-message
+    .chat-container
+    .content
+    .send-mesage {
+    margin: 10% 0;
+  }
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-content-message
+    .chat-container
+    .content
+    .send-mesage
+    .time {
+    bottom: -13%;
+  }
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-content-message
+    .chat-container
+    .footer
+    span {
+    left: 20px;
+    top: 29px;
+  }
+  .account-personal .tab-contents .tab-content .tap-favourite .box-content {
+    flex-direction: column;
+  }
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tap-favourite
+    .box-content
+    .third-col
+    .image {
+    margin-top: 3%;
+  }
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-settings
+    .settings
+    .tab-setting
+    .setting-general
+    form
+    .button,
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-settings
+    .settings
+    .tab-setting
+    .change-password
+    form
+    .button,
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-settings
+    .settings
+    .tab-setting
+    .enter-mobile
+    form
+    .button {
+    text-align: center;
+  }
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-settings
+    .settings
+    .tab-setting
+    .setting-general
+    form
+    .button
+    .btn,
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-settings
+    .settings
+    .tab-setting
+    .change-password
+    form
+    .button
+    .btn,
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-settings
+    .settings
+    .tab-setting
+    .enter-mobile
+    form
+    .button
+    .btn {
+    width: 60%;
+  }
+  .accordion-button {
+    padding: 1rem 0.5rem;
+    font-size: 0.9rem;
+  }
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-settings
+    .settings
+    .tab-setting
+    .member-docum
+    div {
+    padding: 2% 1%;
+  }
+  .account-person .x .profile-pic-div{
+    height: 200px;
+  }
+  .account-person .x #uploadBtn {
+    bottom: -24px;
+  }
+  .account-person .x #uploadBtn span{
+    border: 4px solid  #193e46;
+  }
+  .account-person .x .upload-img .profile-pic-divs{
+    height: 126px;
+    width: 128px;
+  }
+  .account-person .x .upload-img #uploadBtn1 span{
+    width: 35px;
+    height: 34px;
+  }
+  .account-person .x .upload-img{
+    bottom: 40%;
+    right: 7%;
+
+  }
+  /* personal account */
+
+  /* account-rating */
+  .account-person .x .content {
+    margin-top: 27%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .account-person .x .content .info {
+    width: 100%;
+    margin-bottom: 2%;
+  }
+  .account-person .x .content .info .notes p {
+    font-size: 0.7rem;
+  }
+  .account-person .x .content .info .notes p span {
+    font-size: 0.8rem;
+  }
+  .account-person .x .head .pp {
+    top: 76%;
+    right: 107px;
+  }
+  .account-person .x .content .button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .account-person .x .content .button .btn {
+    width: 50%;
+    margin-bottom: 2%;
+  }
+  .account-person .y .exist-review form .add-rate,
+  .account-person .y .exist-review form .ewxprince {
+    padding: 5% 0;
+  }
+  .account-person .y .exist-review form .advice .content,
+  .account-person .y .exist-review form .buy .content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .account-person .y .exist-review form .advice .content label.box,
+  .account-person .y .exist-review form .buy .content label.box {
+    width: 77%;
+  }
+  .account-person .y .exist-review form .button {
+    margin: 10% 0;
+    text-align: center;
+  }
+  .account-person .y .exist-review form .button .btn {
+    width: 80%;
+    padding: 4%;
+  }
+  /* account-rating */
+
+  /* account */
+
+  .account-person .y .tab-pane .box-content {
+    flex-direction: column;
+  }
+  .account-person .y .tab-pane .review .exist-review .all-rates .button .btn {
+    width: 50%;
+  }
+
+  /* account */
+
+  /* password page */
+  .reset_password .password_container,
+  .login form {
+    padding: 3rem 1rem;
+    width: 100%;
+  }
+  /* password page */
+  /* contact page */
+  .contact-us .content {
+    width: 99%;
+  }
+  .contact-us .content form {
+    width: 85%;
+  }
+  .contact-us .content .search {
+    width: 98%;
+  }
+  .contact-us .content form h2 {
+    font-size: 0.8rem;
+  }
+  .contact-us .content form .input-group .form-label,
+  .contact-us .content form .file-upload-wrapper:after {
+    font-size: 0.7rem;
+  }
+  .contact-us .content form .input-group .form-control::placeholder,
+  .contact-us .content form .input-group .form-select::placeholder {
+    font-size: 0.7rem;
+    padding: 2px 0;
+  }
+  .contact-us .content form .button .btn {
+    width: 80%;
+  }
+  /* contact page */
+
+  /* index page */
+  .pagination {
+    flex-wrap: wrap;
+  }
+  .main-tabs .tab-product .pagination .btn {
+    margin-right: 2%;
+    width: 100%;
+    padding: 8% 0%;
+  }
+  .main-tabs
+    .tab-content
+    .filter-search
+    .accordion
+    .accordion-body
+    .content
+    .form-check {
+    margin-bottom: 4%;
+  }
+  .main-tabs .tab-content .filter-search .accordion {
+    padding-bottom: 3%;
+  }
+  .main-tabs .tab-content .search-box {
+    flex-direction: column;
+    margin: 5% 0;
+  }
+  .main-tabs .tab-content .search-box .form-control {
+    width: 90%;
+  }
+  .main-tabs .tab-content .search-box .first {
+    width: 41%;
+    padding: 2% 0;
+    margin-top: 3%;
+  }
+  .main-tabs .tab-content .nav-old-new .nav-item .nav-link {
+    font-size: 0.8rem;
+  }
+  .main-tabs .tab-content .nav-old-new {
+    justify-content: center;
+  }
+  .main-tabs .tab-content .filter-tabel {
+    flex-direction: column;
+  }
+  .main-tabs .tab-content .filter-tabel .form-select,
+  .main-tabs .tab-content .filter-tabel .btn-outline-primary {
+    width: 80%;
+    margin-bottom: 3%;
+  }
+  .main-tabs .tab-content .filter-brand-type {
+    justify-content: center;
+  }
+  .main-tabs .tab-product .box-content {
+    flex-direction: column;
+  }
+  /* index page */
+
+  /* new advertisment page */
+  .new-adver .form-step-active .head h2,
+  .new-adver .form-step-active .commision .head h2,
+  .new-adver .form-step-active .adver-detials h2,
+  .new-adver .form-step-active .location-detials h2,
+  .new-adver .form-step-active .user-detials h2 {
+    font-size: 1.8rem;
+  }
+  .new-adver .form-step-active .nav .nav-item .nav-link {
+    font-size: 0.7rem;
+  }
+  .new-adver .form-step-active .tab-content .collection .content {
+    flex-direction: column;
+  }
+  .new-adver .form-step-active .tab-content .collection .content label.box {
+    width: 90%;
+  }
+  .new-adver .form-step-active .button {
+    justify-content: center;
+  }
+  .new-adver .form-step-active .button .btn {
+    padding: 2%;
+    width: 53%;
+  }
+  .new-adver .form-step-active .commision .quraan h5,
+  .new-adver .form-step-active .commision .swer .form-check .form-check-label {
+    font-size: 0.9rem;
+  }
+  .new-adver .form-step-active .commision .swer .form-check {
+    margin-bottom: 2%;
+  }
+  .new-adver .form-step-active .commision .swer .form-check .form-check-label {
+    display: inline-block;
+    width: 89%;
+  }
+  .new-adver .form-step-active .commision .notice {
+    margin-top: 5%;
+  }
+  .new-adver .form-step-active .commision .notice p {
+    font-size: 0.7rem;
+  }
+  .new-adver .form-step-active .adver-detials .upload-sec,
+  .new-adver .form-step-active .location-detials .upload-sec,
+  .new-adver .form-step-active .user-detials .upload-sec {
+    width: 70%;
+  }
+  /* new advertisment page */
+
+  /* header */
+  .main-tabs .notficatin-advers .content {
+    padding: 2% 0;
+  }
+  .main-tabs .login-logo .content .login a {
+    padding: 4% 5px;
+    width: 50%;
+  }
+  .main-tabs .login-logo {
+    padding: 3% 0;
+  }
+  .main-tabs .notficatin-advers .content .adverts {
+    text-align: center;
+  }
+  .main-tabs .notficatin-advers .content .adverts a {
+    width: 70%;
+    padding: 5% 10px;
+  }
+  /* header */
+
+  /* footer */
+  footer .logo {
+    justify-content: center;
+    text-align: center;
+  }
+  footer .logo .social-icon {
+    justify-content: center;
+  }
+  footer .app-button {
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  footer .app-button a img {
+    width: 75%;
+  }
+  /* footer */
+  /* project page */
+  .main-tabs .main-product .layout .content .main-image ,.main-tabs .main-product .layout .content .image-product img{
+    width: 100%;
+    height: 350px;
+  }
+  .main-tabs .main-product .layout .content h2{
+    font-size: 1.8rem;
+  }
+  .main-tabs .main-product .layout .content .detials-button{
+    flex-wrap: wrap;
+  }
+  .main-tabs .main-product .layout .content .detials-button .btn{
+    width: 50%;
+  }
+  #exampleModal .modal-body ul li a img{
+    width: 52px;
+    height: 53px;
+  }
+  #exampleModal .modal-body .copy span{
+    top: 50%;
+    left: 0%;
+  }
+  #exampleModal2 .modal-body form textarea,#exampleModal3 .modal-body form textarea,.main-tabs .main-product .layout .content .send-comment textarea{
+    width: 100%;
+  }
+  .main-tabs .main-product .layout .content .image-product img{
+    height: 150px;
+  }
+  .main-tabs .main-product .layout .content .price{
+    flex-wrap: wrap;
+  }
+  .main-tabs .main-product .layout .content .price .btn:first-child{
+    width: 60%;
+    margin-bottom: 2%;
+  }
+  #exampleModal3 .modal-body form .message{
+    flex-wrap: wrap;
+  }
+  #exampleModal3 .modal-body form .message .btn{
+    width: 50%;
+  }
+  #exampleModal3 .modal-body form .message .btn i{
+    font-size: 14px;
+  }
+  .main-tabs .main-product .layout .content .comment-user .card .head{
+    align-items: flex-start;
+    margin-bottom: 3%;
+  }
+  .main-tabs .main-product .layout .content .comment-user .card .footer .share{
+    top: -30%;
+    left: 7%;
+  }
+  .main-tabs .main-product .layout .content .send-comment div{
+    text-align: start;
+    margin-top: 3%;
+  }
+  /* project page */
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  /* personal account */
+  .account-personal .tab-contents .tab-content .nav-pills .nav-item {
+    width: 45%;
+  }
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-content-message
+    .all-message
+    .content {
+    height: 250px;
+  }
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-content-message
+    .chat-container
+    .footer
+    span {
+    height: 34px;
+    top: 52px;
+  }
+  .account-personal .tab-contents .nav-pills .nav-item .nav-link.active,
+  .account-personal .tab-contents .nav-pills .nav-item .nav-link {
+    font-size: 0.9rem;
+  }
+  .account-person .x .upload-img{
+    bottom: 28%;
+
+  }
+
+  /* personal account */
+  /* account-rating */
+  .account-person .x .content {
+    margin-top: 12%;
+  }
+  .account-person .x .content .button {
+    width: 59%;
+  }
+  .account-person .y .exist-review form .advice .content,
+  .account-person .y .exist-review form .buy .content {
+    flex-direction: column;
+    align-items: start;
+  }
+  .account-person .y .exist-review form .advice .content label.box,
+  .account-person .y .exist-review form .buy .content label.box {
+    width: 77%;
+  }
+  .account-person .y .exist-review form .button {
+    margin: 10% 0;
+    text-align: start;
+  }
+  .account-person .y .exist-review form .button .btn {
+    width: 80%;
+    padding: 4%;
+  }
+  .account-person .y .tab-pane .review .exist-review .all-rates .button .btn {
+    width: 50%;
+  }
+  /* account-rating */
+  /* password page */
+  .reset_password .password_container,
+  .login form {
+    padding: 3rem 1rem;
+    width: 100%;
+  }
+  /* password page */
+  .contact-us .content form .button .btn {
+    width: 80%;
+  }
+  /* index page */
+  .main-tabs .tab-content .filter-search .accordion {
+    padding-bottom: 3%;
+  }
+  .pagination {
+    flex-wrap: wrap;
+  }
+  .main-tabs .tab-product .pagination .btn {
+    margin-right: 2%;
+    width: 100%;
+    padding: 8% 0%;
+  }
+  .main-tabs .tab-content .filter-tabel .form-select,
+  .main-tabs .tab-content .filter-tabel .btn-outline-primary {
+    width: 80%;
+    margin-bottom: 3%;
+  }
+  .main-tabs
+    .tab-content
+    .filter-search
+    .accordion
+    .accordion-body
+    .content
+    .form-check {
+    margin-bottom: 3%;
+  }
+  .main-tabs
+    .tab-content
+    .filter-search
+    .accordion
+    .accordion-body
+    .content
+    .form-check
+    .form-check-label {
+    margin-right: 5%;
+  }
+  footer .app-button {
+    justify-content: flex-start;
+    align-items: start;
+  }
+  /* index page */
+
+  /* header */
+  .main-tabs .nav-main .nav-item .nav-link {
+    padding: 1.5rem 0.5rem;
+  }
+  .main-tabs .nav-main .nav-item .nav-link .content-list img {
+    width: 20px;
+    height: 20px;
+  }
+  .main-tabs .nav-main .nav-item .nav-link .content-list h6 {
+    font-size: 0.6rem;
+  }
+  .main-tabs .login-logo .content {
+    padding: 3% 0;
+  }
+  .main-tabs .notficatin-advers .content .adverts a {
+    width: 40%;
+    padding: 3% 10px;
+  }
+  /* header */
+  /* project page */
+  .main-tabs .main-product .layout .content .main-image,.main-tabs .main-product .layout .content .image-product img {
+    width: 100%;
+  }
+  #exampleModal2 .modal-body form textarea,#exampleModal3 .modal-body form textarea,.main-tabs .main-product .layout .content .send-comment textarea{
+    width: 100%;
+  }
+  /* project page */
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1023.98px) and (max-width: 1200px) {
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-content-message
+    .chat-container
+    .footer
+    span {
+    left: 28px;
+    top: 41px;
+  }
+  .account-person .y .tab-pane .review .exist-review .all-rates .button .btn {
+    width: 50%;
+  }
+  .main-tabs .tab-content .filter-tabel .btn-outline-primary {
+    width: 14%;
+  }
+  .main-tabs .tab-product .pagination .btn {
+    margin-right: 94%;
+    width: 114%;
+  }
+  .main-tabs .nav-main .nav-item .nav-link {
+    padding: 1.1rem 0.7rem;
+  }
+  footer .app-button a img {
+    width: 60%;
+  }
+  .main-tabs .main-product .layout .content .main-image,.main-tabs .main-product .layout .content .image-product img {
+    width: 100%;
+  }
+  .main-tabs .main-product .layout .content .main-image,.main-tabs .main-product .layout .content .image-product img {
+    width: 100%;
+  }
+  .account-person .x .content{
+    margin-top: 4%;
+  }
+  .account-person .x .upload-img{
+    bottom: 25%;
+    right: 7%;
+  }
+}
+
+@media (max-width: 1000px) {
+  /* responsive tabel */
+  .table thead,
+  .candidates .table thead,
+  .all-order .table thead {
+    display: none;
+  }
+  .table,
+  .candidates,
+  .all-order .table,
+  .table tbody,
+  .candidates tbody,
+  .all-order .table tbody,
+  .table tr,
+  .candidates tr,
+  .all-order .table tr,
+  .table td,
+  .candidates td,
+  .all-order .table td {
+    display: block;
+    width: 100%;
+  }
+  .all-order .table tbody tr {
+    border: none;
+    border-bottom: 2px solid black;
+  }
+  .all-order .table tbody tr:last-child {
+    border-bottom: unset;
+  }
+  .table tr,
+  .candidates tr {
+    margin-bottom: 15px;
+  }
+  .table td,
+  .candidates .table td {
+    text-align: left !important;
+    padding-right: 2%;
+    padding-left: 2%;
+
+    position: relative;
+  }
+  .table td::before,
+  .candidates .table td::before {
+    content: attr(data-label);
+    position: absolute;
+    right: 0;
+    width: 31%;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+  }
+  .table-work.table tbody tr:nth-child(even) {
+    color: white;
+  }
+  .all-order .table tbody td span,
+  .candidates .tabel-cand tbody tr .case {
+    padding: 3% 3%;
+  }
+  table.dataTable.row-border tbody th,
+  table.dataTable.row-border tbody td,
+  table.dataTable.display tbody th,
+  table.dataTable.display tbody td {
+    border-top: none !important;
+  }
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-content-adv
+    .table
+    td
+    .name {
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-content-adv
+    .table
+    td
+    .name
+    .text {
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .account-personal .tab-contents .tab-content .tab-content-adv .table td {
+    border-radius: 0px;
+  }
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-content-adv
+    .table
+    td:last-child {
+    border-bottom: unset;
+  }
+  .account-personal .tab-contents .tab-content .tab-content-adv .table td span {
+    padding: 2% 9%;
+  }
+  .account-personal
+    .tab-contents
+    .tab-content
+    .tab-content-adv
+    .table
+    td
+    .show-detials {
+    width: 108px;
+  }
+  /* responsive tabel */
+}
