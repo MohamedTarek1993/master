@@ -2,6 +2,8 @@
 
 
 ?>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
 
 <!---------------------- start team-------------------------------------------->
 <div class="team_section" data-aos="fade-up" data-aos-duration="3000">
@@ -93,3 +95,11 @@
         </div>
     </div>
     <!---------------------- finish team-------------------------------------------->
+    
+    <!-- main js -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- main js -->
+</body>
+</html>

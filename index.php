@@ -1,44 +1,12 @@
 <?php 
 
-
 ?>
 
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> تواصل معانا</title>
-    <!-- main css -->
-    <link rel="stylesheet" href="css/all.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="scss/main.min.css" />
-    <!-- main css -->
 
-    <!-- swiper -->
-    <link rel="stylesheet" href="css/swiper-demos.css">
-    <!-- swiper -->
-
-    <!-- animation -->
-    <link rel="stylesheet" href="css/aos-anmite.css" />
-    <!-- animation -->
-    <!-- hover -->
-    <link rel="stylesheet" href="css/hover-min.css">
-    <!-- hover -->
-    <!-- ? Favicon -->
-    <link rel="icon" href="./image/logo.png" type="image" />
-    <!-- ? Favicon -->
-</head>
-
-<body>
-    <!---------------------- start loader -------------------------------------------->
-    <!-- <div id="preloader"></div> -->
-    <!---------------------- finish loader -------------------------------------------->
-    <!---------------------- start scroll-up -------------------------------------------->
-    <a id="button" class="scroll-up"><i class="bi bi-chevron-up"></i></a>
-    <!---------------------- finish scroll-up -------------------------------------------->
+<?php include './template/header.php'  ?>
 
     <!---------------------- start service section -------------------------------------------->
     <section class="service_section">
@@ -259,98 +227,13 @@
     <!---------------------- finish counter-------------------------------------------->
 
     <!---------------------- start team-------------------------------------------->
-    <div class="team_section" data-aos="fade-up" data-aos-duration="3000">
-        <div class="container">
-            <div class="main-title">
-                <h2>فريق العمل</h2>
-                <p>ﻫﻲ ﺷﺮﻛﺔ ﻣﻬﻨﻴﺔ ﻣﺮﺧﺼﺔ ﺗﻀﻢ ﻋﺪد ﻣﻦ اﻟﻤﺤﺎﻣﻴﻦ واﻟﻤﺴﺘﺸﺎرﻳﻦ اﻟﻤﺘﺨﺼﺼﻴﻦ ﻓﻲ اﻟﻤﺠﺎل اﻟﻘﺎﻧﻮﻧﻲ واﻟﺸﺮﻋﻲ ﻣﻦ ذوي
-                    اﻟﻤﺆﻫﻼت اﻟﻌﺎﻟﻴﺔ و اﻟﺨﺒﺮة اﻟﻄﻮﻳﻠﺔ ﺑﺎﻷﻧﻈﻤﺔ اﻟﺴﻌﻮدﻳﺔ واﻹﻗﻠﻴﻤﻴﺔ اﻟﺘﻲ أﻛﺘﺴﺒﻨﺎﻫﺎ ﻋﻠﻰ ﻣﺪار ﺛﻼﺛﺔ ﻋﺸﺮَ ﺳﻨﺔ
-                </p>
-            </div>
-            <div class="swiper mySwiper-1">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="container_card">
-                            <div class="box-1">
-                                <div class="caption-1">
-                                    <a target="_blank" href="#"><i class="bi bi-facebook"></i></a>
-                                    <a target="_blank" href="#"><i class="bi bi-instagram"></i></a>
-                                    <a target="_blank" href="#"><i class="bi bi-linkedin"></i></a>
-                                    <a target="_blank" href="#"><i class="bi bi-twitter"></i></a>
-                                </div>
-                                <img src="image/team1.jpg" alt="1">
+    <?php include('./ui-part/team.php');  ?>
 
-                            </div>
-                            <div class="content">
-                                <h6 class="text">محمد عبد الرحمن</h6>
-                                <p class="parg">الشريك المؤسس , الرئيس التنفيذي</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="container_card">
-                            <div class="box-1">
-                                <div class="caption-1">
-                                    <a target="_blank" href="#"><i class="bi bi-facebook"></i></a>
-                                    <a target="_blank" href="#"><i class="bi bi-instagram"></i></a>
-                                    <a target="_blank" href="#"><i class="bi bi-linkedin"></i></a>
-                                    <a target="_blank" href="#"><i class="bi bi-twitter"></i></a>
-                                </div>
-                                <img src="image/team2.jpg" alt="1">
-
-                            </div>
-                            <div class="content">
-                                <h6 class="text">محمد عبد الرحمن</h6>
-                                <p class="parg">الشريك المؤسس , الرئيس التنفيذي</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="container_card">
-                            <div class="box-1">
-                                <div class="caption-1">
-                                    <a target="_blank" href="#"><i class="bi bi-facebook"></i></a>
-                                    <a target="_blank" href="#"><i class="bi bi-instagram"></i></a>
-                                    <a target="_blank" href="#"><i class="bi bi-linkedin"></i></a>
-                                    <a target="_blank" href="#"><i class="bi bi-twitter"></i></a>
-                                </div>
-                                <img src="image/team3.jpg" alt="1">
-
-                            </div>
-                            <div class="content">
-                                <h6 class="text">محمد عبد الرحمن</h6>
-                                <p class="parg">الشريك المؤسس , الرئيس التنفيذي</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="container_card">
-                            <div class="box-1">
-                                <div class="caption-1">
-                                    <a target="_blank" href="#"><i class="bi bi-facebook"></i></a>
-                                    <a target="_blank" href="#"><i class="bi bi-instagram"></i></a>
-                                    <a target="_blank" href="#"><i class="bi bi-linkedin"></i></a>
-                                    <a target="_blank" href="#"><i class="bi bi-twitter"></i></a>
-                                </div>
-                                <img src="image/team4.jpg" alt="1">
-
-                            </div>
-                            <div class="content">
-                                <h6 class="text">محمد عبد الرحمن</h6>
-                                <p class="parg">الشريك المؤسس , الرئيس التنفيذي</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-button-next"><i class="bi bi-arrow-left"></i></div>
-                <div class="swiper-button-prev"><i class="bi bi-arrow-right"></i></div>
-            </div>
-        </div>
-    </div>
+    
     <!---------------------- finish team-------------------------------------------->
 
     <!---------------------- start printer in sucess-------------------------------------------->
-    <section class="parnter_in_sucess" style="background-image: url(./image/pranter\ header.jpg);">
+    <!-- <section class="parnter_in_sucess" style="background-image: url(./image/pranter\ header.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12">
@@ -394,11 +277,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!---------------------- finish printer in sucess-------------------------------------------->
 
     <!---------------------- start blog-------------------------------------------->
-    <section class="blog_home">
+    <!-- <section class="blog_home">
         <div class="container">
             <div class="main-title">
                 <h2> مقالات ماستري للمحاماة</h2>
@@ -443,7 +326,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!---------------------- finish blog-------------------------------------------->
 
 
