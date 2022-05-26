@@ -6,8 +6,8 @@
 
 //  scroll-up 
 var btn = $('#button');
- var image = $('.navbar-light .navbar-brand img');
- var link = $('.navbar-light .nav-item .nav-link');
+var image = $('.navbar-light .navbar-brand img');
+var link = $('.navbar-light .nav-item .nav-link');
 $(window).scroll(function () {
   if ($(window).scrollTop() > 100) {
     btn.addClass('show');
@@ -24,16 +24,16 @@ btn.on('click', function (e) {
   $('html, body').animate({ scrollTop: 0 }, '300');
 });
 //    scroll-up 
-  // animated hamburger icon
-  $(document).ready($(function () {
-    let navBtn = $('.navbar-toggler');
-    $(navBtn).click(function () {
-      $(navBtn).toggleClass('active-hamburger');
-    });
-  }));
-  // animated hamburger icon
+// animated hamburger icon
+$(document).ready($(function () {
+  let navBtn = $('.navbar-toggler');
+  $(navBtn).click(function () {
+    $(navBtn).toggleClass('active-hamburger');
+  });
+}));
+// animated hamburger icon
 
-  //    light&& dark 
+//    light&& dark 
 
 // check for saved 'darkMode' in localStorage
 // let darkMode = localStorage.getItem('darkMode');
@@ -50,8 +50,8 @@ btn.on('click', function (e) {
 //   light.style.display = "block";
 //   // 3. Update darkMode in localStorage
 //   localStorage.setItem('darkMode', 'enabled');
- 
-  
+
+
 // }
 // const disableDarkMode = () => {
 //   // 1. Remove the class from the body
@@ -62,7 +62,7 @@ btn.on('click', function (e) {
 //   dark.style.display = "block";
 //   // 3. Update darkMode in localStorage 
 //   localStorage.setItem('darkMode', null);
-  
+
 // }
 
 // // If the user already visited and enabled darkMode
@@ -103,6 +103,22 @@ btn.on('click', function (e) {
 // //    light&& dark
 
 
- //Bothelp.io widget 
-!function(){var e={"buttons":[{"type":"whatsapp","token":"01093140277"}],"color":"#F0645A","position":"right","bottomSpacing":"30","callToActionMessage":"Message Us","displayOn":"everywhere","lang":"en"},t=document.location.protocol+"//bothelp.io",o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=t+"/widget-folder/widget-page.js",o.onload=function(){new BhWidgetPage.init(e)};var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(o,n)}();
+//Bothelp.io widget 
+!function () { var e = { "buttons": [{ "type": "whatsapp", "token": "01093140277" }], "color": "#F0645A", "position": "right", "bottomSpacing": "30", "callToActionMessage": "Message Us", "displayOn": "everywhere", "lang": "en" }, t = document.location.protocol + "//bothelp.io", o = document.createElement("script"); o.type = "text/javascript", o.async = !0, o.src = t + "/widget-folder/widget-page.js", o.onload = function () { new BhWidgetPage.init(e) }; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(o, n) }();
 ///Bothelp.io widget 
+
+//download file
+var doc = new jsPDF();
+var specialElementHandlers = {
+  '#editor': function (element, renderer) {
+    return true;
+  }
+};
+
+$('#cmd').click(function () {
+  doc.fromHTML($('#content').html(), 15, 15, {
+    'width': 270,
+    'elementHandlers': specialElementHandlers
+  });
+  doc.save('cv.pdf');
+});
