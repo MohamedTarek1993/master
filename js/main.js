@@ -6,17 +6,21 @@
 
 //  scroll-up 
 var btn = $('#button');
-var image = $('.navbar-light .navbar-brand img');
-var link = $('.navbar-light .nav-item .nav-link');
+var navbar = $('#navbar')
+var lang = $('.navbar  .dropdown');
+var inquery = $('.navbar  .inquery_btn ');
 $(window).scroll(function () {
-  if ($(window).scrollTop() > 100) {
+  if ($(window).scrollTop() > 490) {
     btn.addClass('show');
-    // image.css('width', '50%');
-    // link.addClass('change');
+    navbar.addClass('change');
+    lang.css('display', 'none');
+    inquery.css('display', 'none');
+
   } else {
     btn.removeClass('show');
-    // image.css('width', '70%');
-    // link.removeClass('change');
+    navbar.removeClass('change');
+    lang.css('display', 'block');
+    inquery.css('display', 'flex');
   }
 });
 btn.on('click', function (e) {
