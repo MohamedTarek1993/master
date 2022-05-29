@@ -11,6 +11,7 @@
 # Base
 	- pre loader
 	- button up
+  -navbar
 	- home page
     -- service section
     -- why choise us section
@@ -394,6 +395,36 @@ input {
 }
 
 /* finish button up  */
+
+//start navbar
+.navbar{
+ background-color: var(--color-text);
+
+  .navbar-brand{
+    width: 200px;
+    height: 70px;
+    img{
+      width: 100%;
+      height: 100%;
+
+    }
+  }
+  .navbar-nav{
+    .nav-item{
+      .nav-link{
+      font-size: 1rem;
+      font-family: 'regular';
+      color: var(--color-white);
+      }
+    }.nav-item.active{
+      .nav-link{
+        color: var(--color-primary);
+      }
+    }
+  }
+}
+
+//finish navbar
 
 //start service section
 .service_section {
