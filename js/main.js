@@ -1,7 +1,7 @@
 //loader
-//  let loader = document.getElementById('preloader');
-//  window.addEventListener('load', function () {  loader.style.display = 'none';
-//  });
+  let loader = document.getElementById('preloader');
+  window.addEventListener('load', function () {  loader.style.display = 'none';
+ });
 //loader
 
 //  scroll-up 
@@ -108,7 +108,7 @@ $(document).ready($(function () {
 
 
 //Bothelp.io widget 
-!function () { var e = { "buttons": [{ "type": "whatsapp", "token": "01093140277" }], "color": "#F0645A", "position": "right", "bottomSpacing": "30", "callToActionMessage": "Message Us", "displayOn": "everywhere", "lang": "en" }, t = document.location.protocol + "//bothelp.io", o = document.createElement("script"); o.type = "text/javascript", o.async = !0, o.src = t + "/widget-folder/widget-page.js", o.onload = function () { new BhWidgetPage.init(e) }; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(o, n) }();
+ !function () { var e = { "buttons": [{ "type": "whatsapp", "token": "01093140277" }], "color": "#F0645A", "position": "right", "bottomSpacing": "30", "callToActionMessage": "Message Us", "displayOn": "everywhere", "lang": "en" }, t = document.location.protocol + "//bothelp.io", o = document.createElement("script"); o.type = "text/javascript", o.async = !0, o.src = t + "/widget-folder/widget-page.js", o.onload = function () { new BhWidgetPage.init(e) }; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(o, n) }();
 ///Bothelp.io widget 
 
 //download file
