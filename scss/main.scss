@@ -75,6 +75,20 @@ body {
   direction: rtl;
   height: 100vh;
   scroll-behavior: smooth;
+  // &::after{
+  //  content: url(../image/shape-after.png);
+  //  left: 0;
+  //  bottom: 30%;
+  //  position: absolute;
+  //  width: 100px;
+  //  height: 100px;
+  // }
+  // &::before{
+  //  content: url(../image/shape-before.png);
+  //  right: 0;
+  //  top: 30%;
+  //  position: absolute;
+  // }
 }
 
 html {
