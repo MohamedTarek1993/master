@@ -177,9 +177,8 @@
                     <div class="img">
                         <div class="overlay">
                         </div>
-                        <img src="image/hero.png" alt="slider1">
+                        <img src="image/slider5 (1).jpg" alt="slider1">
                     </div>
-
                     <div class="text_slider" data-aos="fade-up" data-aos-duration="2000">
                         <p>ماستـــــــــــري للمحـــــــاماة لتسهيل كل الحلول القانونية من خلال خبراتنا المهنية
                             الممتدة وعملنا الجماعي</p>
@@ -193,10 +192,10 @@
                     <div class="img">
                         <div class="overlay">
                         </div>
-                        <img src="image/slide2 (1).jpg" alt="slider1">
+                        <img src="image/slider5 (2).jpg" alt="slider1">
                     </div>
 
-                    <div class="text_slider" data-aos="fade-up" data-aos-duration="3000">
+                    <div class="text_slider" >
                         <p>ماستـــــــــــري للمحـــــــاماة لتسهيل كل الحلول القانونية من خلال خبراتنا المهنية
                             الممتدة وعملنا الجماعي</p>
                         <div class="button">
@@ -206,13 +205,30 @@
 
                 </div>
                 <div class="swiper-slide">
+                    <div class="text_slider">
+                        <p>ماستـــــــــــري للمحـــــــاماة لتسهيل كل الحلول القانونية من خلال خبراتنا المهنية
+                            الممتدة وعملنا الجماعي</p>
+                        <div class="button">
+                            <a href="about-us.html" class="first btn">اعرف المزيد</a>
+                        </div>
+                    </div>
                     <div class="img">
                         <div class="overlay">
                         </div>
                         <img src="image/slide2 (2).jpg" alt="slider1">
                     </div>
 
-                    <div class="text_slider" data-aos="fade-up" data-aos-duration="2000">
+
+
+                </div>
+                 <div class="swiper-slide">
+                    <div class="img">
+                        <div class="overlay">
+                        </div>
+                        <img src="image/hero.png    " alt="slider1">
+                    </div>
+
+                    <div class="text_slider">
                         <p>ماستـــــــــــري للمحـــــــاماة لتسهيل كل الحلول القانونية من خلال خبراتنا المهنية
                             الممتدة وعملنا الجماعي</p>
                         <div class="button">
@@ -220,15 +236,15 @@
                         </div>
                     </div>
 
-                </div>
+                </div> 
                 <div class="swiper-slide">
                     <div class="img">
                         <div class="overlay">
                         </div>
-                        <img src="image/slide2 (3).jpg" alt="slider1">
+                        <img src="image/slider5 (2).jpg" alt="slider1">
                     </div>
 
-                    <div class="text_slider" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="text_slider" >
                         <p>ماستـــــــــــري للمحـــــــاماة لتسهيل كل الحلول القانونية من خلال خبراتنا المهنية
                             الممتدة وعملنا الجماعي</p>
                         <div class="button">
@@ -236,7 +252,7 @@
                         </div>
                     </div>
 
-                </div>
+                </div> 
 
             </div>
             <div class="swiper-button-next"><i class="bi bi-arrow-left"></i></div>
@@ -444,7 +460,7 @@
                     </div>
                     <div class="content">
                         <i class="bi bi-plus-lg"></i>
-                        <div class="counter" data-target="200"> </div>
+                        <div class="counter" data-target="200">200 </div>
                         <span class="head-categ">سنة خبرة</span>
                     </div>
 
@@ -455,7 +471,7 @@
                     </div>
                     <div class="content">
                         <i class="bi bi-plus-lg"></i>
-                        <div class="counter" data-target="400"> </div>
+                        <div class="counter" data-target="400">400 </div>
                         <span class="head-categ"> قضية ناجحة</span>
                     </div>
 
@@ -466,7 +482,7 @@
                     </div>
                     <div class="content">
                         <i class="bi bi-plus-lg"></i>
-                        <div class="counter" data-target="600"> </div>
+                        <div class="counter" data-target="600"> 600 </div>
                         <span class="head-categ"> شريك للنجاح</span>
                     </div>
 
@@ -812,8 +828,10 @@
     <script>
         var swiper = new Swiper(".mySwiper-3", {
             loop: true,
+            spaceBetween: 30,
+            effect: "fade",
             autoplay: {
-                delay: 2500,
+                delay: 2200,
                 disableOnInteraction: false,
             },
             navigation: {
@@ -862,41 +880,37 @@
     <!-- service slider -->
 
     <!-- counter -->
-    <script>
-        function showProgress() {
-            const counters = document.querySelectorAll('.counter');
-            counters.forEach(counter => {
-                counter.innerText = "0";
-
-                const updateCounter = () => {
-                    const target = counter.getAttribute('data-target');
-                    const x = +counter.innerText;
-                    const increment = target / 9000;
-                    if (x < target) {
-                        counter.innerText = `${Math.ceil(x + increment)}`;
-                        setTimeout(updateCounter, 1)
-                    } else {
-                        counter.innerText = target
-                    }
+    <!-- <script>
+        const counters = document.querySelectorAll('.counter');
+        counters.forEach(counter => {
+            counter.innerText = "0";
+            const updateCounter = () => {
+                const target = counter.getAttribute('data-target');
+                const x = +counter.innerText;
+                const increment = target / 9000;
+                if (x < target) {
+                    counter.innerText = `${Math.ceil(x + increment)}`;
+                    setTimeout(updateCounter, 1)
+                } else {
+                    counter.innerText = target
                 }
-                updateCounter();
-            });
-        }
-
-        let counterSection = document.getElementById('counter_section');
-        window.addEventListener('scroll', () => {
-            const counterSection = skillsSection.getBoundingClientRect().top;
-            const screenPos = window.innerHeight / 2;
-            if (sectionPos < screenPos) {
-                showProgress();
-            } else {
-               
             }
+            updateCounter();
         });
 
 
+    </script> -->
+    <script src="js/counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script>
+        $('.counter').counterUp({
+            delay: 20,
+            time: 3000
+        });
     </script>
+
     <!-- counter -->
+
 
     <!-- team slider -->
     <script>

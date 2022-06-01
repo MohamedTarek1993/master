@@ -1,6 +1,12 @@
 /* ---------------------------------------------------------media query------------------------------------------- */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (max-width: 1200px) {
+  body:after{
+   display: none;
+  }
+  body:before{
+    display: none;
+   }
   .navbar
     .navbar-collapse
     .navbar-nav
@@ -28,6 +34,9 @@
     a {
     transform: translate(-67px, 3px);
   }
+  .hero_section .swiper .swiper-slide .img img{
+    animation:unset
+  }
  
 }
 
@@ -40,7 +49,7 @@
     margin-bottom: 9%;
   }
   .hero_section .swiper .swiper-slide .text_slider {
-    top: 22%;
+    top: 32%;
   }
   .hero_section .swiper .swiper-slide .text_slider p {
     font-size: 1.5rem;
